@@ -26,11 +26,30 @@
 
   <!-- Add your site or application content here -->
 
-  <li><label>Index > Home</label></li>
-  <li><label>About > About </label></li>
-  <li><label>Projects > Projects</label></li>
-  <li><label>Project 1 > Projects > Project 1</label></li>
-  <li><label>Project 1 > Projects > Project 2</label></li>
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Index')">Index</button>
+    <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+    <button class="tablinks" onclick="openCity(event, 'Project')">Project</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="Index" class="tabcontent">
+    <h3>Home</h3>
+    <p>This is the home page.</p>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <h3>About</h3>
+    <p>This is the about page.</p>
+  </div>
+
+  <div id="Projects" class="tabcontent">
+    <h3>Projects</h3>
+    <h3>Projects 1</h3>
+    <h3>Projects 2</h3>
+    <p>These are the projects.</p>
+  </div>
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
